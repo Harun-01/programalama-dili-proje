@@ -77,7 +77,7 @@
 	$textrun->addText('. ');
 	
 	
-	$section->addLink('https://github.com/PHPOffice/PHPWord', 'PHPWord on GitHub');
+	$section->addLink('PHPWord');
 	$section->addTextBreak();
 	
 	// Image
@@ -122,7 +122,7 @@
 	$textrun->addText(' are also available.');
 	$textrun->addText(' All elements are placed inside a paragraph with the optionally given paragraph style.', $coloredFontStyleName);
 	$textrun->addText(' Sample Link: ');
-	$textrun->addLink('https://github.com/PHPOffice/PHPWord', 'PHPWord on GitHub', $linkFontStyleName);
+	$textrun->addLink('PHPWord', $linkFontStyleName);
 	$textrun->addText(' Sample Image: ');
 	$textrun->addImage('resources/_earth.jpg', array('width' => 18, 'height' => 18));
 	$textrun->addText(' Sample Object: ');
